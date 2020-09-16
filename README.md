@@ -11,5 +11,8 @@ Uma aplicação básica e hipotética do Blockchain com Flask. O objetivo é mos
 # Tendermint BlockChat App
 Projeto de um chat utilizando o Framework LotionJS que utiliza o Tendermint como camada de consenso e rede.
 ***requisitos***:  Node JS e [LotionJS](https://lotionjs.com) instalados.
+***adaptado do projeto***: https://github.com/devslopes/blockchat 
 
 ![enter image description here](https://lh3.googleusercontent.com/XcO8wYnwqjAvqMVhezzD_0_kap5257gmfiYesR6QBH5bj6bFrHW8hku1AYG_Q7XRo8tGrw7jZprWAMmu06oTiLqjK3l0T0jq2O2UrWUGSsPw5SqaIHknFOhGusRvOdQml7UMWnvmF24exOX8uuGFJ1k6-BIUF68GcNkFk8Ki84AqirDWHFH19nT_4zB0MYhgAgqAB6A8mthlMEhyK6TnO4nL9h9gfpAEaYqbahUYi86zRaNczbeeLD9K-GlP-9rCIqIX7pQYwBf4X2ouhhrd5yBJ9lgHQ7W0uV0HJ58EGqhanEPlmSy7WERIMhweWRHhLtf9t1Q9HPCDis9fbgODBb3RfQHheh0CDgDxA4Mb-VIcG1NF8oG6P-dS0CQBqX3JYYxumKdXRFO3mKpMbeRNnEDjdRbwBdMitYLqRC6CS8b4biJAUdJL8m_NsjIgnkxVIVVEDd_51EK29b5hYYVd2hRGTZG6ppxzALA89kp6prDrcxGScAbRSNGFX_PtGcNqxaT1kfuqk1Ksy7czKGYZG0YVJfsGmK62zVwjm1kkaz6eU-nOnxzUURFjqDZIl83e37vJmRV9vkrsN0byA_nflGvwNiG5xepKi1418HXXrjGVcm8WTJxckePKjhmoHZhkQwfcCHvw0U67TxBeirEbCQvyULBaBcnLyxKiqexShs5jh90ys492yW7xO3APuw=w1200-h374-no?authuser=0)
+
+

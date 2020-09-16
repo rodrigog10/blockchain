@@ -7,6 +7,7 @@ class Blockchain:
 
     def __init__(self):
         self.chain = []
+        #blockchain hipotetico, que recebe uma pessoa origem e outra destino e um quantidade para transferencia entre elas
         self.create_block(proof = 1, previous_hash = '0', origem = '', destino='', valor='')
 
     def create_block(self, proof, previous_hash,origem,destino,valor):
@@ -65,7 +66,7 @@ lista = []
 @app.route('/')
 def index():
 
-    return render_template('lista.html',titulo="Transacoes",
+    return render_template('lista.html',titulo="Transações",
     transacoes=lista)
 
 
@@ -77,6 +78,8 @@ def novo():
 
 
 
+
+#responsavel por realizar a mineracao do bloco, e acrecentar no blockchain
 @app.route('/mine_block', methods = ['POST'])
 def mine_block():
 
@@ -90,12 +93,14 @@ def mine_block():
     proof = blockchain.proof_of_work(previous_proof)
     previous_hash = blockchain.hash(previous_block)
     block = blockchain.create_block(proof, previous_hash,origem,destino,valor)
-    lista.append(block)
     response = {'message': 'Parabens voce acabou de minerar um bloco!',
                 'index': block['index'],
                 'timestamp': block['timestamp'],
                 'proof': block['proof'],
                 'previous_hash': block['previous_hash']}
+
+    lista.append(block)
+
     #return jsonify(response), 200
     return redirect('/')
 

@@ -74,7 +74,7 @@ def index():
 @app.route('/novo')
 def novo():
     
-    return render_template('novo.html', titulo='Nova Transacao')
+    return render_template('novo.html', titulo='Nova Transação')
 
 
 
